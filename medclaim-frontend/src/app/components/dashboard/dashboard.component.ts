@@ -119,7 +119,7 @@ import { Claim } from '../../models/claim.model';
           <div class="payout-icon"><mat-icon>payments</mat-icon></div>
           <div>
             <p class="payout-label">Total Payout This Month</p>
-            <h2 class="payout-amount">${{(stats.totalAmount | number:'1.0-0')}}</h2>
+            <h2 class="payout-amount">{{ '$' + (stats.totalAmount | number:'1.0-0') }}</h2>
             <p class="payout-sub">Across {{stats.total}} claims</p>
           </div>
         </div>
