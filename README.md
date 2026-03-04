@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://placehold.co/900x200/1a3c6e/ffffff?text=🏥+MedClaim+Copilot+%7C+AI-Powered+Insurance+Claims+Platform&font=raleway" alt="MedClaim Copilot Banner" width="100%" style="border-radius:12px" />
+<img src="assets/screenshots/02_dashboard.png" alt="MedClaim Copilot Banner" width="100%" style="border-radius:12px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);" />
 
 <br/><br/>
 
@@ -70,7 +70,7 @@
 
 ## 📸 Screenshots
 
-> Below are all 8 screens of the MedClaim Copilot application.
+> Below are 10 key screens from the MedClaim Copilot application.
 
 ---
 
@@ -78,7 +78,7 @@
 
 > Secure authentication with branded login UI, healthcare compliance trust badges, and feature highlights.
 
-![Login Screen](https://placehold.co/1200x700/0f2447/ffffff?text=🔐+LOGIN+PAGE%0A%0AEmail+%2B+Password+Fields+%7C+JWT+Authentication%0AHIPAA+Compliant+%7C+256-bit+SSL+%7C+SOC+2+Type+II%0ABranding+Panel+with+Feature+Highlights&font=raleway)
+![Login Screen](assets/screenshots/01_login.png)
 
 **Features:** Email/password login · JWT token auth · Branded left panel · Trust badges · Demo mode
 
@@ -88,7 +88,7 @@
 
 > Central hub with KPI stat cards, recent claims table, status distribution bars, and quick action buttons.
 
-![Dashboard Screen](https://placehold.co/1200x700/1a3c6e/ffffff?text=🏠+DASHBOARD%0A%0ATotal+Claims+%7C+Pending+%7C+Approved+%7C+Rejected%0ARecent+Claims+Table+%7C+Status+Overview+%7C+Quick+Actions%0AMonthly+Payout+Banner+%7C+Alert+Cards&font=raleway)
+![Dashboard Screen](assets/screenshots/02_dashboard.png)
 
 **Features:** 4 KPI cards · Recent claims table · Status progress bars · Payout banner · Alert notifications
 
@@ -98,23 +98,31 @@
 
 > 4-step guided form wizard with patient info, medical details, document upload, and final review.
 
-![Submit Claim Screen](https://placehold.co/1200x700/2a5298/ffffff?text=📋+SUBMIT+NEW+CLAIM%0A%0AStep+1%3A+Patient+Info+%7C+Step+2%3A+Medical+Details%0AStep+3%3A+Documents+Upload+%7C+Step+4%3A+Review+%26+Submit%0AProgress+Bar+%7C+Drag+%26+Drop+File+Upload&font=raleway)
+![Submit Claim Screen](assets/screenshots/03_submit_claim_step1.png)
 
 **Features:** 4-step wizard · Progress bar indicator · Drag & drop upload · ICD-10 code input · Review summary
 
 ---
 
-### 🔍 Screen 4 — Claims Tracker
+### 📋 Screen 4 — Claim Review & Submission
+
+> Final step of the claim wizard where users can review all entered data and documents before final submission.
+
+![Review Claim](assets/screenshots/05_submit_claim_step4.png)
+
+---
+
+### 🔍 Screen 5 — Claims Tracker
 
 > Searchable, filterable claims table with status badges, pagination, and bulk actions.
 
-![Claims Tracker Screen](https://placehold.co/1200x700/1e4a80/ffffff?text=🔍+CLAIMS+TRACKER%0A%0ASearch+%26+Filter+Bar+%7C+Status+Filter+%7C+Date+Range%0AColor-Coded+Status+Badges+%7C+Action+Buttons%0APagination+%7C+Export+CSV+%7C+Claim+Count+Stats&font=raleway)
+![Claims Tracker Screen](assets/screenshots/04_tracker.png)
 
 **Features:** Full-text search · Status/date filters · Color-coded badges · Per-row actions · Pagination · CSV export
 
 ---
 
-### 📄 Screen 5 — Claim Detail View
+### 📄 Screen 6 — Claim Detail View
 
 > Complete claim breakdown with patient info, medical details, claim timeline, documents list, and adjuster controls.
 
@@ -124,33 +132,41 @@
 
 ---
 
-### ✅ Screen 6 — Compliance Checker
+### ✅ Screen 7 — Compliance Checker
 
 > AI-powered compliance analysis with ICD-10 validation, compliance score, issue detection, and recommendations.
 
-![Compliance Checker Screen](https://placehold.co/1200x700/065f46/ffffff?text=✅+COMPLIANCE+CHECKER%0A%0AICD-10+Code+Validator+%7C+HIPAA+%7C+ACA+%7C+CMS+Check%0ACompliance+Score+%25+%7C+Issues+Found+%7C+Recommendations%0AColor-Coded+Results%3A+Green+%2F+Yellow+%2F+Red&font=raleway)
+![Compliance Checker Screen](assets/screenshots/06_compliance.png)
 
 **Features:** ICD-10 live validation · Compliance % score · Severity-coded issues · Regulatory citations · AI recommendations
 
 ---
 
-### 📊 Screen 7 — Analytics & Reports
+### 📊 Screen 8 — Analytics & Reports
 
 > Charts including monthly bar chart, status donut chart, KPI cards, and top diagnosis codes table.
 
-![Analytics Screen](https://placehold.co/1200x700/1a3c6e/ffffff?text=📊+ANALYTICS+%26+REPORTS%0A%0ATotal+Claims+%7C+Total+Payout+%7C+Approval+Rate%0AMonthly+Bar+Chart+%7C+Status+Donut+Chart%0ATop+Diagnosis+Codes+Table+%7C+Date+Filter&font=raleway)
+![Analytics Screen](assets/screenshots/07_analytics.png)
 
 **Features:** 4 KPI cards · 12-month bar chart · Status donut chart · Top 5 diagnosis codes · Export button · Date range filter
 
 ---
 
-### 👤 Screen 8 — User Profile & Settings
+### 👤 Screen 9 — User Profile & Settings
 
 > Account management with profile card, settings form, password change, and notification preferences toggles.
 
-![Profile Screen](https://placehold.co/1200x700/2d3748/ffffff?text=👤+USER+PROFILE+%26+SETTINGS%0A%0AProfile+Card+%7C+Account+Settings+Form%0AChange+Password+with+Strength+Meter%0ANotification+Preferences+%7C+Role+Management&font=raleway)
+![Profile Screen](assets/screenshots/08_profile.png)
 
 **Features:** Profile card with stats · Account settings form · Password strength meter · Notification toggles · Role management
+
+---
+
+### 🔔 Screen 10 — Notifications & Alerts
+
+> Real-time notification center allowing users to track claim updates, approval status, and compliance alerts.
+
+![Notifications Screen](assets/screenshots/09_notifications.png)
 
 ---
 
@@ -181,6 +197,8 @@
 ```
 MedClaimCopilot/
 │
+├── 📁 assets/                     # Project assets (branding & screenshots)
+│   └── 📁 screenshots/            # Application screen captures
 ├── 📁 medclaim-frontend/          # Angular Frontend
 │   ├── 📁 src/
 │   │   ├── 📁 app/
@@ -411,6 +429,6 @@ Built with ❤️ by the MedClaim Copilot Team
 
 **MedClaim Copilot** — *Empowering Healthcare Claims with Intelligence*
 
-![Footer](https://placehold.co/800x80/1a3c6e/ffffff?text=🏥+MedClaim+Copilot+%7C+InsurTech+%2F+Healthcare+Compliance+Platform&font=raleway)
+![Footer](assets/screenshots/02_dashboard.png)
 
 </div>
